@@ -1,2 +1,2 @@
-# Morr_Assignment
-This Repository contains my work on Morr Internship Drive
+# BLOG_APPLICATION
+This is a Blog Application developed using MERN Stack
