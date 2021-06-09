@@ -1,6 +1,6 @@
 import React from "react";
 
-const FreashStories = () => {
+const FreshStories = () => {
     return(
         
         <section className="fresh-section on-trend-mode">
@@ -70,4 +70,4 @@ const FreashStories = () => {
     );
 };
 
-export default FreashStories;
+export default FreshStories;

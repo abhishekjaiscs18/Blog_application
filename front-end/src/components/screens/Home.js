@@ -3,7 +3,7 @@ import Header from "../parts/Header";
 import Slider from "../parts/Slider";
 import Footer from "../parts/Footer";
 import TreandingPosts from "../parts/TrendingPosts";
-import FreashStories from "../parts/FreshStrories";
+import FreshStories from "../parts/FreshStories";
 
 const Home = () => {
     return(
@@ -11,7 +11,7 @@ const Home = () => {
             <Header />
             <Slider />
             <TreandingPosts />
-            <FreashStories />
+            <FreshStories />
             <Footer />
         </>
     );
