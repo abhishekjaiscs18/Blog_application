@@ -1,11 +1,12 @@
 import React from "react";
-import { userSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import PostItem from "./PostItem";
 import Pagination from "./Pagination";
 
 const Posts = () => {
 
-    const posts  = userSelector((state) => state.posts);
+    const posts  = useSelector((state) => state.posts);
     const dispatch = useDispatch();
 
     console.log(posts);
