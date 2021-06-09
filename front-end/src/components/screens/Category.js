@@ -1,16 +1,27 @@
 import React from "react";
 import Header from "../parts/Header";
-import Slider from "../parts/Slider";
 import Footer from "../parts/Footer";
-import TreandingPosts from "../parts/TrendingPosts";
-import FreashStories from "../parts/FreshStrories";
+import Posts from "../parts/Posts";
+import BreadCrumb from "../parts/BreadCrumb";
+import SideBar from "../parts/SideBar";
+
 
 const Category = () => {
     return(
         <>
-            <div>Category </div>
+            <Header />
+            <BreadCrumb />
+            <section className="blog-section">
+		    	<div className="container">
+			    	<div className="row">
+					<Posts />
+                    <SideBar />
+				    </div>
+			    </div>
+		    </section>
+            <Footer />
         </>
     );
-}
+};
 
 export default Category;

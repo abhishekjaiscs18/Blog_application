@@ -1,14 +1,21 @@
 import React from "react";
+
 import Header from "../parts/Header";
-import Slider from "../parts/Slider";
+import PostDesc from "../parts/PostDesc";
+import Comment from "../parts/Comment";
 import Footer from "../parts/Footer";
-import TreandingPosts from "../parts/TrendingPosts";
-import FreashStories from "../parts/FreshStrories";
+
+
 
 const Single = () => {
     return(
         <>
-            <div>Single </div>
+        <Header />
+        <div className="single-post no-sidebar">
+			<PostDesc />
+            <Comment />
+		</div>
+        <Footer />
         </>
     );
 }

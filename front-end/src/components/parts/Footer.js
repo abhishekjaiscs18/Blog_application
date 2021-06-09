@@ -5,8 +5,8 @@ const Footer = () => {
         <footer>
 			<div className="container">
 
-				<h1>Mitte</h1>
-				<p className="copyright-line">© Copyright 2019 - All rights reserved.</p>
+				<h1>BLOG APPLICATION</h1>
+				<p className="copyright-line">© Copyright 2021 - All rights reserved.</p>
 				<ul className="social-list">
 					<li><a href="#"><i className="fa fa-twitter"></i></a></li>
 					<li><a href="#"><i className="fa fa-linkedin"></i></a></li>
