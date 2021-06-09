@@ -1,18 +1,17 @@
 import React from "react";
-import { useSelector, useDispatch } from "react-redux";
 import PostItem from "./PostItem";
 import Pagination from "./Pagination";
 
-const Posts = () => {
-  const posts = useSelector((state) => state.posts);
-  const dispatch = useDispatch();
-
-  const postItems = posts.map((post) => <PostItem post={post} />);
-
+const Posts = () =>  {
   return (
     <div className="col-lg-8">
       <div className="blog-box list-style">
-        {postItems}
+        <PostItem />
+        <PostItem />
+        <PostItem />
+        <PostItem />
+        
+        
         <Pagination />
       </div>
     </div>

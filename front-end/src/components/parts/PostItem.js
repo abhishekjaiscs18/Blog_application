@@ -11,10 +11,10 @@ const PostItem = (props) => {
         </div>
         <div className="col-md-6">
           <a className="text-link" href="#">
-            {props.post.category.categoryName}
+            Category1
           </a>
           <h2>
-            <a href="single-post.html">{props.post.title}</a>
+            <a href="single-post.html">Post Title</a>
           </h2>
           <ul className="post-tags">
             <li>3 days ago</li>
@@ -25,7 +25,10 @@ const PostItem = (props) => {
               by <a href="#">John Smith</a>
             </li>
           </ul>
-          <p>{props.post.description}</p>
+          <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula <a href="#">sollicitudin laoreet viverra</a>, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
+								<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent <a href="#">elementum hendrerit </a> tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.
+          </p>
         </div>
       </div>
     </div>
